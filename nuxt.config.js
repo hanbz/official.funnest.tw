@@ -4,7 +4,7 @@ export default {
     title: 'official.funnest.tw',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
@@ -19,9 +19,6 @@ export default {
       },
       {
         src: 'js/bootstrap.min.js'
-      },
-      {
-        src: 'js/jquery.min.js'
       },
       {
         src: 'js/jquery.easing.min.js'
@@ -70,5 +67,10 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  server: {
+    port: 3000, // default: 3000
+    host: '0.0.0.0' // default: localhost
   }
 }

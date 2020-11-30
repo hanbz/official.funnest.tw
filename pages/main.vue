@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div data-spy="scroll" data-target=".fixed-top">
     <!-- Preloader -->
     <div class="spinner-wrapper">
       <div class="spinner">
@@ -1920,23 +1920,13 @@
 
 <script>
 import Vue from "vue";
-import "~/assets/js/jquery.min.js";
-import "~/assets/js/bootstrap.min.js";
-import "~/assets/js/popper.min.js";
-import "~/assets/js/jquery.easing.min.js";
-import "~/assets/js/swiper.min.js";
-import "~/assets/js/jquery.magnific-popup.js";
-import "~/assets/js/morphext.min.js";
-import "~/assets/js/isotope.pkgd.min.js";
-import "~/assets/js/validator.min.js";
-import "~/assets/js/scripts.js";
 
 export default Vue.extend({
   loading: false,
 });
 </script>
 
-<style scoped>
+<style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext");
 @import "~assets/css/bootstrap.css";

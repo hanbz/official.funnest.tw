@@ -9,6 +9,41 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: 'js/jquery.min.js'
+      },
+      {
+        src: 'js/popper.min.js'
+      },
+      {
+        src: 'js/bootstrap.min.js'
+      },
+      {
+        src: 'js/jquery.min.js'
+      },
+      {
+        src: 'js/jquery.easing.min.js'
+      },
+      {
+        src: 'js/swiper.min.js'
+      },
+      {
+        src: 'js/jquery.magnific-popup.js'
+      },
+      {
+        src: 'js/morphext.min.js'
+      },
+      {
+        src: 'js/isotope.pkgd.min.js'
+      },
+      {
+        src: 'js/validator.min.js'
+      },
+      {
+        src: 'js/scripts.js'
+      }
     ]
   },
 

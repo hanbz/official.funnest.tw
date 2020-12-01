@@ -17,7 +17,7 @@
 
       <!-- Image Logo -->
       <a class="navbar-brand logo-image" href="index.html"
-        ><img src="~assets/images/logo.svg" alt="alternative"
+        ><img src="~assets/images/logo.png" alt="alternative"
       /></a>
 
       <!-- Mobile Menu Toggle Button -->
@@ -365,8 +365,9 @@
 
     <!-- Details 1 -->
     <div id="details" class="accordion">
-      <div class="area-1"></div><!-- end of area-1 on same line and no space between comments to eliminate margin white space 
-      --><div class="area-2">
+      <div class="area-1"></div>
+      <!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
+      <div class="area-2">
         <!-- Accordion -->
         <div class="accordion-container" id="accordionOne">
           <h2>Accelerate Business Growth To Improve Revenue Numbers</h2>
@@ -684,8 +685,9 @@
           <!-- end of tabs content -->
         </div>
         <!-- end of tabs-container -->
-      </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space 
-      --><div class="area-2"></div>
+      </div>
+      <!-- end of area-1 on same line and no space between comments to eliminate margin white space -->
+      <div class="area-2"></div>
       <!-- end of area-2 -->
     </div>
     <!-- end of tabs -->
@@ -1106,7 +1108,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-1.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-1.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1147,7 +1153,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-2.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-2.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1188,7 +1198,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-3.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-3.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1229,7 +1243,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-4.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-4.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1270,7 +1288,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-5.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-5.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1311,7 +1333,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-6.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-6.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1352,7 +1378,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-7.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-7.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1393,7 +1423,11 @@
           ×
         </button>
         <div class="col-lg-8">
-          <img class="img-fluid" src="~assets/images/project-8.jpg" alt="alternative" />
+          <img
+            class="img-fluid"
+            src="~assets/images/project-8.jpg"
+            alt="alternative"
+          />
         </div>
         <!-- end of col -->
         <div class="col-lg-4">
@@ -1580,7 +1614,11 @@
         <div class="row">
           <div class="col-lg-5 col-xl-6">
             <div class="image-container">
-              <img class="img-fluid" src="~assets/images/about.jpg" alt="alternative" />
+              <img
+                class="img-fluid"
+                src="~assets/images/about.jpg"
+                alt="alternative"
+              />
             </div>
             <!-- end of image-container -->
           </div>
@@ -1697,7 +1735,10 @@
                 <a href="#your-link">
                   <span class="hexagon"></span>
                   <i class="fab fa-instagram fa-stack-1x"></i>
-                </a>ru8 5k4
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
                   <span class="hexagon"></span>
                   <i class="fab fa-linkedin-in fa-stack-1x"></i>
                 </a>
@@ -1885,7 +1926,7 @@ export default Vue.extend({
 });
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext");
 @import "~assets/css/bootstrap.css";

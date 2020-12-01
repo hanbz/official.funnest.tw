@@ -4,7 +4,7 @@ export default {
     title: 'official.funnest.tw',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
@@ -12,34 +12,25 @@ export default {
     ],
     script: [
       {
-        src: 'js/jquery.min.js'
-      },
-      {
-        src: 'js/popper.min.js'
-      },
-      {
-        src: 'js/bootstrap.min.js'
-      },
-      {
-        src: 'js/jquery.easing.min.js'
-      },
-      {
-        src: 'js/swiper.min.js'
-      },
-      {
-        src: 'js/jquery.magnific-popup.js'
-      },
-      {
-        src: 'js/morphext.min.js'
-      },
-      {
-        src: 'js/isotope.pkgd.min.js'
-      },
-      {
-        src: 'js/validator.min.js'
-      },
-      {
-        src: 'js/scripts.js'
+        src: "/js/jquery.min.js"
+      }, {
+        src: "/js/bootstrap.min.js"
+      }, {
+        src: "/js/popper.min.js"
+      }, {
+        src: "/js/jquery.easing.min.js"
+      }, {
+        src: "/js/swiper.min.js"
+      }, {
+        src: "/js/jquery.magnific-popup.js"
+      }, {
+        src: "/js/morphext.min.js"
+      }, {
+        src: "/js/isotope.pkgd.min.js"
+      }, {
+        src: "/js/validator.min.js"
+      }, {
+        src: "/js/scripts.js"
       }
     ]
   },
@@ -67,10 +58,5 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  },
-
-  server: {
-    port: 3000, // default: 3000
-    host: '0.0.0.0' // default: localhost
   }
 }
